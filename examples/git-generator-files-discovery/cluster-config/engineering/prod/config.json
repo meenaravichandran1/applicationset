@@ -1,6 +1,9 @@
 {
-  "aws_account": "123456",
-  "asset_id": "11223344",
+  "images": {
+    "name" : "nginx",
+    "newName" : "monopole/hello",
+    "newTag" : "1"
+  },
   "cluster": {
     "address" : "https://34.68.70.100",
     "name" : "cluster22"
