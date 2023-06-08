@@ -1,8 +1,8 @@
 {
   "images": {
     "name" : "nginx",
-    "newName" : "monopole/hello",
-    "newTag" : "1"
+    "newName" : "gcr.io/heptio-images/ks-guestbook-demo",
+    "newTag" : "0.1"
   },
   "cluster": {
     "address" : "https://34.68.70.100",
