@@ -20,7 +20,7 @@ spec:
         path: "examples/git-generator-files-discovery/apps/guestbook"
         kustomize:
           images:
-           - 'nginx:1.16'
+           - 'monopole/hello:1'
       destination:
         server: https://kubernetes.default.svc
         namespace: guestbook
