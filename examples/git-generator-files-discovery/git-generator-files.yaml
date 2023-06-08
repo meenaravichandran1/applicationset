@@ -16,7 +16,7 @@ spec:
       project: 09fd9492
       source:
         repoURL: https://github.com/meenaravichandran1/applicationset.git
-        targetRevision: HEAD
+        targetRevision: meena
         path: "examples/git-generator-files-discovery/apps/guestbook"
         kustomize:
           images:
