@@ -20,7 +20,7 @@ spec:
         path: "examples/git-generator-files-discovery/apps/guestbook"
         kustomize:
           images:
-            - 'nginx:perl'
+            - 'gcr.io/heptio-images/ks-guestbook-demo:0.2'
       destination:
         server: https://kubernetes.default.svc
         namespace: guestbook
