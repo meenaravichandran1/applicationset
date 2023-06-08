@@ -11,7 +11,7 @@ spec:
         - path: "examples/git-generator-files-discovery/cluster-config/**/config.json"
   template:
     metadata:
-      name: '{{cluster.name}}-guestbook'
+      name: 'kustomize-test-{{cluster.name}}'
     spec:
       project: 09fd9492
       source:
