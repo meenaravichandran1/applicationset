@@ -6,7 +6,7 @@ spec:
   generators:
     - git:
         repoURL: https://github.com/meenaravichandran1/applicationset.git
-        revision: HEAD
+        revision: meena
         files:
         - path: "examples/git-generator-files-discovery/cluster-config/**/config.json"
   template:
